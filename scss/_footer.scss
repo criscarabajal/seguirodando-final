@@ -1,0 +1,80 @@
+@import "colors";
+
+footer {
+    display: flex;
+    background-color: $color-lineas;
+    margin-top: 100px;
+    .links {
+        .logo-footer {
+            margin: 30px;
+        }
+        .categoria-footer {
+            li {
+                list-style: none;
+                color: $color-text;
+                margin: 15px 0;
+                a {
+                    color: $color-text;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: $verde;
+                }
+            }
+        }
+    }
+    .redes-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        position: relative;
+        right: 120px;
+        h2 {
+            overflow: hidden;
+            color: $color-text;
+            text-align: center;
+        }
+        .iconos-footer {
+            text-align: center;
+            margin-top: 30px;
+            a {
+                text-decoration: none;
+                margin: 30px;
+                svg {
+                    color: $color-text;
+                }
+            }
+        }
+    }  
+}
+
+/* RESPONSIVE SMARTPHONE */
+
+@media (max-width: 576px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 4em;
+        .links {
+            .categoria-footer {
+                li {
+                    text-align: center;
+                    margin-right: 2em;
+                }
+            }
+        }
+        .redes-footer {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            right: 0;
+        }
+    }
+
+
+
+    
+}

@@ -1,0 +1,28 @@
+@import "colors";
+@import "header";
+$fuente: 'roboto' 'sans-serif';
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: $fuente;
+    
+}
+
+@import "index";
+
+
+@import "footer";
+
+

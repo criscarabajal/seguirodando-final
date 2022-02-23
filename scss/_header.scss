@@ -1,0 +1,17 @@
+/* HEADER */
+@import "colors";
+
+
+.nav-link {
+    margin: 0 1em;
+}
+.navbar-brand {
+    margin-right: 25%;
+}
+.ig-icon {
+    color: $color-text;
+    margin-right: 2em;
+}
+.fb-icon {
+    @extend .ig-icon;
+}
